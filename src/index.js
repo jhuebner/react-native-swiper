@@ -2,7 +2,7 @@
  * react-native-swiper
  * @author leecade<leecade@163.com>
  */
-import React, { Component, PropTypes } from 'react'
+import React, { Component } from 'react'
 import {
   Text,
   View,
@@ -14,6 +14,7 @@ import {
   ActivityIndicator,
   ViewPropTypes
 } from 'react-native'
+import PropTypes from 'prop-types';
 
 const { width, height } = Dimensions.get('window')
 
